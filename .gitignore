@@ -1,0 +1,59 @@
+# .NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.sln.dotsettings
+*.cache
+*.csproj.user
+
+# Build outputs
+*.exe
+*.dll
+*.pdb
+*.nuspec
+*.nupkg
+*.snupkg
+*.nupkg.metadata
+*.nuget.props
+*.nuget.targets
+
+# MAUI specific
+*.msix
+*.msixupload
+*.appx
+*.appxbundle
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arduino
+*.tmp
+*.log
+
+# Environment / Secrets
+.env
+*.env
+secrets.json
+appsettings.*.json
+
+# NuGet
+packages/
+
+# Test results
+TestResults/
+
+# Publish
+publish/
+
+# Logs
+*.log
